@@ -1,4 +1,4 @@
-# OmniPlan - FMCG Demand Planner & S&OP Automation Suite
+# OmniPlan: FMCG Demand Planner & S&OP Automation Suite
 
 Streamlit app that pairs deterministic statistical forecasting with an LLM "S&OP narrative agent" for a
 simulated Australian personal-care / FMCG category (Chemist Warehouse, Priceline, Coles).
