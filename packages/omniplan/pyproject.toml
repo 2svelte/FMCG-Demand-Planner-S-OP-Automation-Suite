@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omniplan"
+version = "0.1.0"
+description = "OmniPlan core: FMCG demand forecasting, S&OP scenarios, master data audit, LLM briefs, Excel export"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "statsmodels>=0.14",
+    "openpyxl>=3.1",
+    "python-dotenv>=1.0",
+    "openai>=1.30",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

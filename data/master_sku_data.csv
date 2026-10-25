@@ -1,0 +1,13 @@
+SKU_ID,SKU_Description,Category,Brand,Status,Unit_Cost,MOQ,Order_Multiple,Lead_Time_Weeks,Safety_Stock_Weeks,Budget_Growth_Pct
+PC-1001,Hydrating Body Wash 500ml,Personal Care,AquaPure,Active,3.9,480.0,48,4.0,2,9.3
+PC-1002,Daily Moisturiser SPF50 75ml,Personal Care,DermaDay,Active,6.5,240.0,24,6.0,2,5.1
+PC-1003,Foaming Hand Wash 250ml,Personal Care,AquaPure,Active,1.6,1200.0,2400,3.0,2,6.1
+PC-1004,Intimate Wellness Gel 100ml,Sexual Wellness,Velvet,Active,4.2,100.0,7,7.0,2,2.9
+PC-1005,Ultra-Thin Condoms 12pk,Sexual Wellness,Velvet,Active,3.8,600.0,60,6.0,2,7.9
+PC-1006,Silky Personal Lubricant 50ml,Sexual Wellness,Velvet,Active,3.3,,24,6.0,2,7.6
+PC-1007,Charcoal Face Wash 150ml,Personal Care,DermaDay,Active,3.1,360.0,36,5.0,2,8.4
+PC-1008,Natural Deodorant Roll-On 50ml,Personal Care,AquaPure,Active,2.4,480.0,48,5.0,2,4.6
+PC-1009,Sensitive Shampoo 400ml,Personal Care,DermaDay,Active,4.0,360.0,36,,2,5.5
+PC-1010,SPF30 Sunscreen Lotion 200ml,Personal Care,SunSafe,Active,5.0,480.0,48,8.0,2,3.3
+PC-1011,Lip Balm SPF15 Twin Pack,Personal Care,SunSafe,Discontinued,1.8,1000.0,100,4.0,2,9.7
+PC-1012,Hair Removal Cream 100ml,Personal Care,Velvet,Active,2.9,240.0,24,5.0,2,2.7
