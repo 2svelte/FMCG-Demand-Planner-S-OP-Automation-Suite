@@ -8,7 +8,7 @@ from omniplan.config import get_settings
 from omniplan.excel_export import build_workbook
 from omniplan.loaders import DataValidationError, load_master, load_pos, load_promo_calendar
 
-st.set_page_config(page_title="OmniPlan | Demand Planner Automation Suite", page_icon="📦", layout="wide")
+st.set_page_config(page_title="OmniPlan | Demand Planner Automation Suite", layout="wide")
 settings = get_settings()
 
 
@@ -26,7 +26,7 @@ def _fit(pos: pd.DataFrame, horizon: int):
 
 
 # ---------------------------------------------------------------- sidebar
-st.sidebar.title("📦 OmniPlan")
+st.sidebar.title("OmniPlan")
 up_pos = st.sidebar.file_uploader("Upload Weekly Retailer POS Dump", type=["csv"])
 up_master = st.sidebar.file_uploader("Upload SKU Master Data (optional)", type=["csv"])
 up_promo = st.sidebar.file_uploader("Upload Promo Calendar (optional)", type=["csv"])
